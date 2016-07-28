@@ -1,4 +1,4 @@
-|PyPI| |PyPI| |PyPI| |PyPI| |PyPI|
+|PyPI| |PyPID| |PyPIV| |PyPIL| |PyPIS|
 
 获取最新的HTTP代理
 ------------------
@@ -33,11 +33,11 @@
 
 .. |PyPI| image:: https://img.shields.io/pypi/v/proxies.svg?maxAge=2592000
    :target: https://pypi.python.org/pypi/proxies
-.. |PyPI| image:: https://img.shields.io/pypi/dm/proxies.svg?maxAge=2592000
+.. |PyPID| image:: https://img.shields.io/pypi/dm/proxies.svg?maxAge=2592000
    :target: https://pypi.python.org/pypi/proxies
-.. |PyPI| image:: https://img.shields.io/pypi/pyversions/proxies.svg?maxAge=2592000
+.. |PyPIV| image:: https://img.shields.io/pypi/pyversions/proxies.svg?maxAge=2592000
    :target: https://pypi.python.org/pypi/proxies
-.. |PyPI| image:: https://img.shields.io/pypi/l/proxies.svg?maxAge=2592000
+.. |PyPIL| image:: https://img.shields.io/pypi/l/proxies.svg?maxAge=2592000
    :target: https://pypi.python.org/pypi/proxies
-.. |PyPI| image:: https://img.shields.io/pypi/status/proxies.svg?maxAge=2592000
+.. |PyPIS| image:: https://img.shields.io/pypi/status/proxies.svg?maxAge=2592000
    :target: https://pypi.python.org/pypi/proxies
