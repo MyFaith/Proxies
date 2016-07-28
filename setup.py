@@ -6,7 +6,7 @@ def read(file):
 
 setup(
     name='proxies',
-    version='1.1',
+    version='1.2',
     keywords=('proxy', 'proxies', 'requests'),
     description='Get latest http proxies.',
     long_description=read('README.rst'),
