@@ -46,7 +46,7 @@ class Proxies():
             4.国外普通代理
         '''
         url_queue = Queue()
-        need_pages = math.ceil(quantity/15)
+        need_pages = int(math.ceil(quantity/15))
         # 判断类型
         if type == 1:
             # 国内高匿代理
