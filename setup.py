@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 def read(file):
-    with open(file, 'rb') as f:
+    with open(file, 'r') as f:
         return f.read()
 
 setup(
