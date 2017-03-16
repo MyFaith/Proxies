@@ -1,15 +1,11 @@
 from setuptools import setup, find_packages
 
-def read(file):
-    with open(file, 'r') as f:
-        return f.read()
-
 setup(
     name='proxies',
-    version='1.5',
+    version='1.6',
     keywords=('proxy', 'proxies', 'requests'),
     description='Get latest http proxies.',
-    long_description=read('README.rst'),
+    # long_description=read('README.rst'),
     author='MyFaith',
     author_email='faith0725@outlook.com',
     url='https://github.com/MyFaith/proxies',
