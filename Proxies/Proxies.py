@@ -1,5 +1,4 @@
 # coding: utf-8
-
 import requests, math
 import gevent
 from gevent.queue import Queue
@@ -13,7 +12,7 @@ class Proxies():
         self.abroad_gn_url = 'http://www.kuaidaili.com/free/outha/{0}/'
         self.abroad_pt_url = 'http://www.kuaidaili.com/free/outtr/{0}/'
         self.result_arr = []
-        self.s = requests.Session()
+        self.s = requests
         self.headers = {
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
             'Referer': 'http://www.kuaidaili.com/'
@@ -66,10 +65,9 @@ class Proxies():
             url_queue.put(url)
         # 处理所有URL,开启2个协程
         gevent_list = []
-        for index in range(2):
-            gevent_list.append(
-                gevent.spawn(self.fetch_urls, url_queue, quantity)
-            )
+        gevent_list.append(
+            gevent.spawn(self.fetch_urls, url_queue, quantity)
+        )
         gevent.joinall(gevent_list)
 
     def get_result(self):
@@ -77,6 +75,6 @@ class Proxies():
 
 if __name__ == '__main__':
     p = Proxies()
-    p.get_proxies(20, 1)
+    p.get_proxies(17, 1)
     result = p.get_result()
     print(result)
